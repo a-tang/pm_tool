@@ -8,6 +8,11 @@
 </head>
 <body>
 
+  <%= link_to("Home", home_path, {class: "abc"}) %>
+  |
+  <%= link_to "About", about_us_path({a: 'hello', b: 123}) %>
+<hr>
+
 <%= yield %>
 
 </body>
